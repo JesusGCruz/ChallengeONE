@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="img/skull.png">
+        <title>Encriptador JGC5</title>
+    </head>
+
+    <body>
+        <header>
+			<a href="https://app.aluracursos.com/dashboard" target="_blank">
+				<img class="logo_a" src="img/Logo.png" alt="logo_a" />
+			</a>
+            
+            <h3 class="text_titulo">¿Encriptador?</h3>
+            <img class="logo_coffee" src="img/coffee.png" alt="logo_b" />
+            
+        </header>
+        <main class="main1">
+            <section class="seccion1">
+                <div class="conteinerTxtarea">
+                    <textarea id="mensaje" class="txtArea" placeholder="Ingrese el texto aqui."></textarea>
+                </div>
+                <div class="advertencia">
+                    <img src="img/exclamation.png" alt="simAdvertencia" />
+                    <p>Solo letras minusculas y sin acentos.</p>
+                </div>
+                <div class="conteinerBtn">
+                    <button id="encriptar" class="botones">Encriptar</button>
+                    <button id="desencriptar" class="botones">Desencriptar</button>
+                    <button id="borrar" class="botones">Borrar</button>
+                </div>
+            </section>
+
+            <section class="seccion2">
+                <div class="conteinerResultados">
+                    <div class="resultado">
+                        <p class="txtResultado">Resultados:<br>(Click en el texto para copiarlo)</p>
+                    </div>
+					<button id="result1" class="resultados">1</button>
+					<button id="result2" class="resultados">2</button>
+					<button id="result3" class="resultados">3</button>
+					<button id="result4" class="resultados">4</button>
+					<button id="result5" class="resultados">5</button>
+					<div id="conteinerParrafo">
+						<img src="img/Muñeco.png">
+                        <p>Ningun mensaje a sido encriptado.</p>
+                    </div>
+					<div class="conteinerCopiar">
+						<button id="Limpiador" class="btnLimpiar">Limpiar historial</button>
+					</div>
+                </div>
+            </section>
+        </main>
+        <footer>
+			<a href="https://www.linkedin.com/in/garridocruz552/" target="_blank">
+				<img src="img/linkedin.png" alt="Linkedin logo." class="logoLink">
+			</a>
+			<a href="#" target="_blank">
+				<img src="img/github.png" alt="Linkedin logo." class="logoLink">
+			</a>
+        </footer>
+		<script src="script.js"></script>
+    </body>
+</html>
